@@ -1,18 +1,18 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  line-height: 1.6;
+}
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+.timer {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+.timer span {
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 6px;
+}
